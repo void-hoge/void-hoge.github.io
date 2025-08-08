@@ -8,7 +8,7 @@ permalink: /about/
 # Profile
 - Mugi Noda (void-hoge)
 - Software Engineer
-- from: Fukuyama, Hirosima pref.
+- from: Fukuyama, Hiroshima pref.
 - current: Tokyo
 - Master of Engineering
 
