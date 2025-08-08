@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Life of Mamanaranity
-email: mugi-noda@gmail.com
+email: muginoda@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
 
 # baseurl: "" # the subpath of your site, e.g. /blog
