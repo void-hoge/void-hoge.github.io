@@ -3,7 +3,7 @@
 ちょっとやりたいことがあったのでRaspberry Pi5を購入しました。
 秋月電子で15,000円ぐらいでした。
 
-- https://akizukidenshi.com/catalog/g/g129326/
+- [秋月電子 Raspberry Pi 5用公式アクティブクーラー](https://akizukidenshi.com/catalog/g/g129326/)
 
 2019年末に4を買ったとき、電源、ヒートシンク、HDMIケーブルとケースのキットで1万円程度だったので、おそらく本体価格は2倍程度になっていそうな気がします。
 高校時代には3Bとかが出ていて、1万円もせずに一通り遊べる環境を作れていた気がしますが、今や高校生が気軽に遊べる値段ではないですね。
@@ -12,7 +12,7 @@
 サンディスクの256GBのmicroSDカードを使用しました。2023年に買ったものらしい。
 一応Class10と書いてあるので良さそうですが、microSDの良し悪しが何で決まるのか未だによくわからん。
 
-- https://www.amazon.co.jp/dp/B08K3ZWLLP?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1
+- [サンディスク microSD 256GB UHS-I Class10 Nintendo Switch メーカー動作確認済SanDisk Ultra SDSQUA4-256G-EPK エコパッケージ](https://www.amazon.co.jp/dp/B08K3ZWLLP?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1)
 
 rpi-imagerのdebファイルを母艦のDebianにインストールし、適当に書こうとしたところ失敗しました。
 調べるとrpi-imagerのバグらしく、USB3.0のポートに指すとだめらしいです。
@@ -31,7 +31,7 @@ rpi-imagerのdebファイルを母艦のDebianにインストールし、適当�
 Raspberry Pi5から公式のアクティブクーラーが発売されました。
 本体同様、秋月で購入しました。
 
-- https://akizukidenshi.com/catalog/g/g129327/
+- [秋月電子 Raspberry Pi 5用公式アクティブクーラー](https://akizukidenshi.com/catalog/g/g129327/)
 
 
 | ![image](/assets/2025-09-08-raspibench/IMG_1043.JPG) |
@@ -50,7 +50,7 @@ Raspberry Pi4までのファンはGPIOから電源を取るものだったため
 ## 冷却能力の比較
 今回、冷却ファンの能力を確かめる実験を行います。以下のリポジトリのプログラムは、指定したコマンドで負荷をかけながら、CPUクロック速度とCPU温度、ファンコンがアクティブかどうかを記録するものです。
 
-- https://github.com/void-hoge/raspibench.git
+- [GitHub: void-hoge/raspibench](https://github.com/void-hoge/raspibench.git)
 
 負荷のプログラムには`stress-ng`を用い、4CPUで180秒実行します。
 また、負荷の前に20秒、後に180秒温度とCPUクロックを記録します。
