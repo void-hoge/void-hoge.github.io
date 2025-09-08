@@ -34,7 +34,7 @@ Raspberry Pi5から公式のアクティブクーラーが発売されました�
 - https://akizukidenshi.com/catalog/g/g129327/
 
 
-| ![image](2025-09-08-raspibench/IMG_1043.JPG) |
+| ![image](/assets/2025-09-08-raspibench/IMG_1043.JPG) |
 |:----------------------:|
 | ロゴがおしゃれ         |
 
@@ -65,7 +65,7 @@ Raspberry Pi4までのファンはGPIOから電源を取るものだったため
 ### 結果
 実験結果を以下に示します。
 
-![image](2025-09-08-raspibench/raspibench.png)
+![image](/assets/2025-09-08-raspibench/raspibench.png)
 
 横軸が時間、左縦軸がクロック速度、右縦軸がCPU温度です。下の青は負荷をかけていた区間、赤はクーラーありにおいてファンが回っていた区間を表します。
 
